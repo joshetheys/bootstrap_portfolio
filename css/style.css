@@ -2,3 +2,39 @@
     margin: 0;
     padding: 0;
 }
+/* .subtitlee{
+    color: rgba(115, 179, 106, 0.966);
+ }
+ #skills{
+   height: 92vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ p{
+   position:absolute;
+   left:50%;
+ }
+ .rating {
+   background-color: rgba(115, 179, 106, 0.966);
+ }
+ .bar {
+   background-color: rgb(223, 223, 223);
+ }
+ .slide {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  template {
+    background-color: #f2f2fc;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 0%;
+      width: 0%;
+    }
+    to {
+      margin-right: 0%;
+      max-width: 100%;
+    }
+  } */

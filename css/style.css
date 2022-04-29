@@ -3,3 +3,46 @@
     padding: 0;
 }
 
+#testimonials {
+    background: 
+      /* top, transparent red, faked with gradient */ 
+      linear-gradient(
+        rgba(255, 0, 0, 0.45), 
+        rgba(255, 0, 0, 0.45)
+      ),
+      /* bottom, image */
+      url(image.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+  }  
+.rounded-circle {
+  width: 43%;
+  /* makes perfect square */
+  aspect-ratio: 1;
+  object-fit: cover;  
+  /* make image move in circle */
+  object-position: 5px 3px;
+  /* makes perfect circle */
+  border-radius: 50%;
+}
+/* make button circle */
+.circle{
+  width: 20px !important;
+  aspect-ratio: 1 !important;
+  height: auto !important;
+  border-radius: 50% !important;
+}
+body { padding-top: 5px; }
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+.projects-container img {
+  max-height: 400px;
+  max-width: 100%;
+  flex-grow: 1;
+  object-fit: cover;
+}
